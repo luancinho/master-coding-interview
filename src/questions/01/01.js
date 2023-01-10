@@ -1,6 +1,6 @@
 /**
  * 
- * @param {number[Array]} arr 
+ * @param {number[]} arr 
  * @param {number} target 
  */
 function twoSum(arr, target) {

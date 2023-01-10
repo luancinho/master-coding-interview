@@ -2,7 +2,7 @@
  * 
  * @param {number} i 
  * @param {number} j 
- * @param {number[Array]} arr 
+ * @param {number[]} arr 
  * @returns {number}
  */
 function calculate(i, j, arr) {
