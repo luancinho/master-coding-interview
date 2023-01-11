@@ -13,7 +13,7 @@ function trappingRainWater(arr) {
   while (i < j) {
     if (arr[i] < arr[j]) {
       if (maxLeft > arr[i]) {
-        total += maxLeft;
+        total += maxLeft - arr[i];
       }
       if (maxLeft <= arr[i]) {
         maxLeft = arr[i];
@@ -22,7 +22,7 @@ function trappingRainWater(arr) {
     }
     else {
       if (maxRight > arr[j]) {
-        total += maxRight;
+        total += maxRight - arr[j];
       }
       if (maxRight <= arr[j]) {
         maxRight = arr[j];
