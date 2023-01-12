@@ -4,6 +4,7 @@
  * @returns {boolean}
  */
 function almostPalindrome(str) {
+  str = str.replace(/[^A-Za-z0-9]/g, "");
   let flag = true;
   let i = 0;
   let j = str.length - 1;
